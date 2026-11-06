@@ -2,28 +2,28 @@
 class KinoCli < Formula
   desc "Agent that learns your codebase and works as one of the team's developers"
   homepage "https://github.com/DogukanGun/homebrew-tap"
-  version "0.1.3"
+  version "0.1.4"
 
   depends_on "uv"
 
   on_macos do
     on_arm do
-      url "https://github.com/DogukanGun/homebrew-tap/releases/download/kino-v0.1.3/kino_cli-0.1.3-cp312-cp312-macosx_11_0_arm64.whl", using: :nounzip
-      sha256 "1ca31e801a0320e9f2038c9f0edae384cdb1a74ce7cd004a026f035b39358c2c"
+      url "https://github.com/DogukanGun/homebrew-tap/releases/download/kino-v0.1.4/kino_cli-0.1.4-cp312-cp312-macosx_11_0_arm64.whl", using: :nounzip
+      sha256 "bc658d845750f5e6f44682141f58e00ac1cc194efeb09cb42374f737737aac61"
     end
     on_intel do
-      url "https://github.com/DogukanGun/homebrew-tap/releases/download/kino-v0.1.3/kino_cli-0.1.3-cp312-cp312-macosx_11_0_x86_64.whl", using: :nounzip
-      sha256 "96044f299285cc038e362ee3a288f504673fb6692a10735aed11d88e2915c248"
+      url "https://github.com/DogukanGun/homebrew-tap/releases/download/kino-v0.1.4/kino_cli-0.1.4-cp312-cp312-macosx_11_0_x86_64.whl", using: :nounzip
+      sha256 "10f4a44776936bf0716f8fa2cec3ae9ce267057d3c5ccf39b2ef5a4303fe6c63"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/DogukanGun/homebrew-tap/releases/download/kino-v0.1.3/kino_cli-0.1.3-cp312-cp312-linux_aarch64.whl", using: :nounzip
-      sha256 "0c85b86a99444f734d8691e119a323ac0f56d271b04799ad97a33fbc46a0b007"
+      url "https://github.com/DogukanGun/homebrew-tap/releases/download/kino-v0.1.4/kino_cli-0.1.4-cp312-cp312-linux_aarch64.whl", using: :nounzip
+      sha256 "973f59beac1efb7d34c876a197b4dc3c8e7ed66387cb1904f280a0ac3f3ad774"
     end
     on_intel do
-      url "https://github.com/DogukanGun/homebrew-tap/releases/download/kino-v0.1.3/kino_cli-0.1.3-cp312-cp312-linux_x86_64.whl", using: :nounzip
-      sha256 "66ea8e9165e59b4ca6aaf7675142422c64788994cb8ee194c9f1d6a0ea1ce2b7"
+      url "https://github.com/DogukanGun/homebrew-tap/releases/download/kino-v0.1.4/kino_cli-0.1.4-cp312-cp312-linux_x86_64.whl", using: :nounzip
+      sha256 "b559060c2e211e81b12a32bc67394d3eea5e7f48b38f8c6ba4adef73df6c6752"
     end
   end
 
